@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: wheat;
+    --main-text-color: teal;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.nav-items {
+    align-items: end;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+}
